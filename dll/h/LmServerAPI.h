@@ -1,6 +1,8 @@
+
+#pragma once
+
 #define byte unsigned char
 #define UINT unsigned int
-#pragma once
 
 typedef void* HOBJECT;
 //=====================================

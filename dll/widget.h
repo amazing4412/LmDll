@@ -2,7 +2,9 @@
 #define WIDGET_H
 
 #include <QWidget>
-
+extern "C"{
+#include "LmServerAPI.h"
+}
 
 namespace Ui {
 class Widget;

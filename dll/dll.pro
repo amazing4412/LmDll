@@ -33,7 +33,7 @@ HEADERS += \
 FORMS += \
         widget.ui
 
-win32: LIBS += -L$$PWD/lib/ -lLmServerAPI
+LIBS += D:\Qt\app\dll\lib\LmServerAPI.lib
 
-INCLUDEPATH += $$PWD/h
-DEPENDPATH += $$PWD/h
+INCLUDEPATH += D:\Qt\app\dll\h
+
